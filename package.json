@@ -10,7 +10,8 @@
   },
   "publishConfig": {
     "access": "public",
-    "directory": "dist"
+    "directory": "dist",
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "build": "yarn && yarn lint && tsc --project ./tsconfig.json",
