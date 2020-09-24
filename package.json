@@ -1,0 +1,38 @@
+{
+  "name": "@srachat/ui",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srachat/ui.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "directory": "dist"
+  },
+  "scripts": {
+    "build": "yarn lint && tsc --project ./tsconfig.json",
+    "watch": "yarn lint && tsc --watch --incremental --project ./tsconfig.json",
+    "lint": "eslint ./src"
+  },
+  "dependencies": {
+    "fela": "^11.3.3",
+    "fela-plugin-embedded": "^11.3.3",
+    "fela-preset-web": "^11.3.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-fela": "^11.3.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^4.2.0",
+    "@typescript-eslint/parser": "^4.2.0",
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.21.1",
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.3"
+  }
+}
