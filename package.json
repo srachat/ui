@@ -13,8 +13,8 @@
     "directory": "dist"
   },
   "scripts": {
-    "build": "yarn lint && tsc --project ./tsconfig.json",
-    "watch": "yarn lint && tsc --watch --incremental --project ./tsconfig.json",
+    "build": "yarn && yarn lint && tsc --project ./tsconfig.json",
+    "watch": "yarn && yarn lint && tsc --watch --incremental --project ./tsconfig.json",
     "lint": "eslint ./src"
   },
   "dependencies": {
