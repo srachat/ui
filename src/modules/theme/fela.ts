@@ -1,7 +1,7 @@
 import { createRenderer } from 'fela';
 import webPreset from 'fela-preset-web';
 import embedded from 'fela-plugin-embedded';
-import { renderAllStaticStyles } from './static-styles';
+// import { renderAllStaticStyles } from './static-styles';
 
 function configureFela() {
   const renderer = createRenderer({
@@ -13,7 +13,7 @@ function configureFela() {
     ]
   });
 
-  renderAllStaticStyles(renderer);
+  // renderAllStaticStyles(renderer);
 
   renderer.renderStatic({
       fontFamily: '"Segoe UI", "SF Optimized", system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", "Roboto", sans-serif'

@@ -1,2 +1,2 @@
 import React from 'react';
-export declare const Button: React.FC;
+export declare const Button: React.FC<React.HTMLAttributes<HTMLButtonElement>>;
