@@ -29,4 +29,6 @@ export const srachatTheme = {
   colors,
 };
 
+export type SrachatPalette = typeof palette;
+export type SrachatColors = typeof colors;
 export type SrachatTheme = typeof srachatTheme;
