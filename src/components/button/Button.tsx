@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleFunction, useFela } from 'react-fela';
+import { FelaRule, useFela } from 'react-fela';
 
 export const Button: React.FC<React.HTMLAttributes<HTMLButtonElement>> = ({
   children,
@@ -14,6 +14,6 @@ export const Button: React.FC<React.HTMLAttributes<HTMLButtonElement>> = ({
   );
 };
 
-const btnStyle: StyleFunction<{}> = () => ({
-  backgroundColor: 'red'
+const btnStyle: FelaRule = ({ theme }) => ({
+  backgroundColor: theme.colors.primary
 });

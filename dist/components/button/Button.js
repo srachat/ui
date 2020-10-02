@@ -6,7 +6,10 @@ export var Button = function (_a) {
     var css = useFela().css;
     return (React.createElement("button", __assign({ className: css({ width: 'auto', height: '20px' }, btnStyle) }, props), children));
 };
-var btnStyle = function () { return ({
-    backgroundColor: 'red'
-}); };
+var btnStyle = function (_a) {
+    var theme = _a.theme;
+    return ({
+        backgroundColor: theme.colors.primary
+    });
+};
 //# sourceMappingURL=Button.js.map
