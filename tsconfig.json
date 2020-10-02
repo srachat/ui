@@ -41,7 +41,7 @@
     "strict": true,
     "paths": {
       "tslib" : ["./node_modules/tslib"],
-      "@talks/ui/*": ["./src/*"]
+      "@srachat/ui/*": ["./src/*"]
     }
   },
   "include": [
