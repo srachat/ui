@@ -1,32 +1,40 @@
 const palette = {
-  red: '#F51D46',
+  dark: '#111520',
+  dark10: '#1F2631',
+  dark20: '#373030',
+  dark30: '#333841',
   orange: '#F54B2A',
+  orange10: '#DF4325',
+  orange20: '#C93D22',
   white: '#FFFFFF',
-  dark: '#1B1A1F',
-  grayDark: '#122A31',
-  green: '#5CF34F',
-  black: '#000000',
-  black80: '#111111',
-  black70: '#111520',
-  black60: '#1F2631',
-  gray80: '#606060',
-  gray50: 'linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)',
-  gray30: '#CCCCCC',
-  gray20: '#E6E6E6',
-  gray10: '#F2F2F2'
+  gray: '#A79D9E',
+  pink: '#D62546',
+  pink10: '#A91A35',
+  green: '#45B169',
+  green10: '#379B58',
+  blue: '#3000EE',
+  red: '#FF3E3E',
+  black: '#000000'
 };
 
 export const colors = {
-  primary: palette.red,
-  secondary: palette.white,
-  background: palette.dark,
-  inputMessages: palette.grayDark,
-  success: palette.green
+  backgroundMain: palette.dark,
+  backgroundSecondary: palette.dark10,
+  mainActive: palette.orange,
+  mainHovered: palette.orange10,
+  mainPressed: palette.orange20,
+  elParagraph: palette.white,
+  elNeutral: palette.gray,
+  elFirstTeamInactive: palette.pink,
+  elFirstTeamActive: palette.pink10,
+  elSecondTeamInactive: palette.green,
+  elSecondTeamActive: palette.green10,
+  elDisabled: palette.dark20
 };
 
 export const srachatTheme = {
   palette,
-  colors,
+  colors
 };
 
 export type SrachatPalette = typeof palette;

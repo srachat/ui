@@ -15,5 +15,5 @@ export const Button: React.FC<React.HTMLAttributes<HTMLButtonElement>> = ({
 };
 
 const btnStyle: FelaRule = ({ theme }) => ({
-  backgroundColor: theme.colors.primary
+  backgroundColor: theme.colors.mainActive
 });

@@ -9,7 +9,7 @@ export var Button = function (_a) {
 var btnStyle = function (_a) {
     var theme = _a.theme;
     return ({
-        backgroundColor: theme.colors.primary
+        backgroundColor: theme.colors.mainActive
     });
 };
 //# sourceMappingURL=Button.js.map
